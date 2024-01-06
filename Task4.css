@@ -1,0 +1,25 @@
+
+table {
+    width: 400px;
+    height: 150px;
+    border: none;
+}
+
+table thead {
+    height: 40px;
+    background: rgb(red, green, blue);
+    color: white;
+}
+
+table tbody tr td {
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    background-color: aquamarine;
+
+}
+
+#XY {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,29 @@
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header nav ul li {
+    list-style: none;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: black solid;
+    border-radius: 0.5rem;
+}
+
+header nav ul li {
+    color: aquamarine;
+    background: black;
+}
+li:hover{
+background-color: rgb(56, 53, 239);
+
+}

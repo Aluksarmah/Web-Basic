@@ -1,0 +1,45 @@
+div{
+    padding: 40px;
+    border: 2px solid black;
+}
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    gap: 20px;
+
+
+}
+form input, form textarea {
+    resize: none;
+    border: 2px solid black;
+    outline: none;
+    background: lightblue;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+textarea{
+    height:200px ;
+
+}
+form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+button {
+    padding: 6px 8px;
+    background: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
